@@ -1,0 +1,199 @@
+body {
+  font-weight: lighter;
+}
+
+.header-block {
+  background: #2b2f3e;
+  min-height: 800px;
+  height: 100vh;
+  width: 250px;
+  float: left;
+}
+
+.app-info {
+  margin-top: 1em;
+  margin-left: 0.5em;
+}
+
+.name {
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+}
+
+.description {
+  color: gray;
+}
+
+.items-block {
+  box-shadow: 2px 2px 6px grey;
+  width: 450px;
+  height: 400px;
+  margin: 0 auto;
+  margin-left: 7em;
+}
+
+.comments {
+  box-shadow: 2px 2px 6px grey;
+  width: 410px;
+  min-height: 200px;
+  height: 100%;
+  margin: 0 auto;
+  margin-left: 1em;
+  float: right;
+}
+
+.header {
+  font-family: sans-serif;
+  font-size: 35px;
+  color: gray;
+}
+
+.items-input,
+.items-name {
+  overflow: hidden;
+  padding-right: 0.5em;
+}
+
+div.inline {
+  float: left;
+}
+
+.red {
+  border-left: 5px solid red;
+}
+
+.none {
+  border-left: 5px solid none;
+}
+
+.higlight {
+  padding-left: 10px;
+  margin-right: 20px;
+  position: relative;
+  left: 0px;
+}
+
+.separator {
+  margin-top: 40px;
+}
+
+.items-name {
+  font-weight: bold;
+  padding-top: 7px;
+}
+
+.items-button {
+  width: 90px;
+  float: right;
+  margin-right: 10px;
+}
+
+.comments-even-img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  background: #ff8a00;
+  margin-top: 5px;
+}
+
+.comments-input-img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  background: #e6e6e6;
+  margin-top: 5px;
+}
+
+.comments-odd-img {
+  float: left;
+  width: 70px;
+  height: 70px;
+  background: #47568c;
+  margin-top: 5px;
+}
+
+.comments-text {
+  padding-left: 84px;
+  font-size: 12px;
+  color: #888888;
+  min-height: 80px;
+}
+
+.comments-list {
+  min-height: 110px;
+}
+
+.input-text {
+  font-size: 12px;
+  width: 290px;
+  color: #888888;
+}
+
+.content {
+  padding-top: 1em;
+  padding-left: 0.5em;
+  padding-bottom: 2em;
+}
+
+.add-button {
+  width: 120px;
+  background: #27ccc0;
+  border-color: #27ccc0;
+}
+
+.add-button:hover {
+  background: #1eaa9f;
+  border-color: #1eaa9f;
+}
+
+.badge {
+  background: #27ccc0;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.highlight-red {
+  border-left: 4px solid red;
+  padding-left: 11px;
+  position: relative;
+}
+
+.clickable-item {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.item-list {
+  border: none;
+  width: 435px;
+  height: 278px;
+  overflow: scroll;
+}
+
+.comments-list {
+  border: none;
+  width: 395px;
+  min-height: 110px;
+  max-height: 355px;
+  overflow: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
